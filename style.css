@@ -1,0 +1,120 @@
+/* CSS Document ***************************************************************************************************************************/
+
+/* ?Imports ***************************/
+/* Fonts */
+@import url("https://use.typekit.net/eln0tng.css");
+
+/* ?Defaults **************************/
+html {
+  font-family: "richmond-text", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: #4c5958;
+}
+
+/* ?Structure *************************/
+body {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  background-image: linear-gradient(to bottom right, skyblue, #d2a0d9);
+  background-size: cover;
+  height: 100vh;
+  background-color: skyblue;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.inputSection {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+input {
+  font-family: "richmond-text", sans-serif;
+  font-weight: 500;
+  font-size: 1em;
+  width: 20%;
+  height: 4vh;
+  border-radius: 20px;
+  border: 1px solid #8aa6a3;
+  padding: 5px 30px;
+  margin: 20px 0;
+  background-color: white;
+  color: #4c5958;
+}
+
+input:hover {
+  background-color: white;
+}
+
+button {
+  height: 3vh;
+  border-radius: 20px;
+  width: 7%;
+  border: 1px solid #10403b00;
+  background-color: #10403b;
+  color: white;
+}
+
+button:hover {
+  cursor: pointer;
+  border: 1px solid #10403b;
+  background-color: #bfbfbf00;
+  color: #10403b;
+}
+
+.weatherResults {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+img {
+  width: 100px;
+  height: auto;
+}
+
+p {
+  margin: 0;
+  font-family: "poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.weatherCondition {
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+}
+
+.weather,
+img {
+  padding: 0 6px;
+}
+
+.weather {
+  font-size: 1.3em;
+}
+
+.temp {
+  font-weight: 500;
+  font-size: 6em;
+  color: white;
+  margin-top: -20px;
+}
+
+.city {
+  font-size: 2em;
+  margin-top: -30px;
+}
+
+.error-message {
+  color: white;
+  font-weight: 100;
+  text-decoration: underline;
+  margin-top: 10px;
+}
